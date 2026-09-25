@@ -14,11 +14,31 @@
 - Lenis 桌面平滑滚动，手机保留原生滚动
 - 原生 Canvas 粒子网络，按设备减少粒子和渲染分辨率
 - 桌面、平板和手机响应式适配，遵循 `prefers-reduced-motion`
-- 单文件页面，内嵌主视觉复用，约 733 KiB
+- 单文件页面，内嵌主视觉复用，约 761 KiB
+- 八个二级页：六个服务详情页、场景指南、配送说明
+- 首页卡片可进入详情，支持浏览器前进/后退、返回首页与直达链接
+- 二级页包含选购提示、常见问题，适配键盘导航及手机布局
 
 ## 本地运行
 
 直接双击 `index.html`，或使用任意静态服务器打开。Motion 和 Lenis 通过 CDN 异步加载；页面内容、图片、CSS 动效与原生动画后备可离线使用。
+
+## 二级页面
+
+二级页使用 URL 哈希路由，全部内嵌在 `index.html` 中，不需要额外页面文件或服务器路由配置。
+
+| 页面 | 地址后缀 |
+| --- | --- |
+| 美食外卖 | `#/service/food` |
+| 奶茶咖啡 | `#/service/coffee` |
+| 生鲜果蔬 | `#/service/fresh` |
+| 商超便利 | `#/service/market` |
+| 鲜花蛋糕 | `#/service/flowers` |
+| 药品及日用品 | `#/service/care` |
+| 场景指南 | `#/scenes` |
+| 配送说明 | `#/delivery` |
+
+例如：[美食外卖详情](https://tfiyw-wei.github.io/eleme-motion-landing-page/#/service/food)。所有页面均为展示内容，不连接真实交易或订单系统。
 
 ## 声明
 
