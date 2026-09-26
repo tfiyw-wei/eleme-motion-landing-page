@@ -2,126 +2,245 @@
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="予沐YUMU品牌介绍：循本草之序，养肌肤之和。">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="description" content="予沐 YUMU 品牌介绍：循本草之序，养肌肤之和。暖色古风草药主题优化版。">
+  <meta name="theme-color" content="#6f3f2e">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%236f3f2e'/%3E%3Cpath d='M32 51V24M31 34C20 32 15 24 16 15c10 1 17 7 16 18M33 28c2-9 8-14 17-15 1 9-5 16-17 18' fill='none' stroke='%23f2d9b5' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
   <title>予沐｜循本草之序，养肌肤之和</title>
   <style>
     :root{
-      --paper:#f3efe5;--paper-deep:#e7dfce;--ink:#26382f;--ink-soft:#53645b;
-      --moss:#294b3a;--moss-2:#183629;--cinnabar:#a45c45;--gold:#aa8c55;
-      --line:rgba(38,56,47,.18);--white:#fbfaf5;--shadow:0 22px 70px rgba(42,49,39,.14)
+      --cream:#fff9ef;--paper:#f6ead8;--paper-2:#eddbc0;--peach:#d9a17f;
+      --amber:#c18445;--copper:#a65c3f;--cinnabar:#8f4030;--tea:#6f3f2e;
+      --tea-deep:#3e2722;--ink:#3d2d27;--muted:#725e53;--line:rgba(111,63,46,.18);
+      --white:#fffdf8;--shadow:0 24px 80px rgba(82,47,34,.16);
+      --serif:"Songti SC","STSong","Noto Serif CJK SC","Source Han Serif SC",serif;
+      --sans:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;
     }
-    *{box-sizing:border-box}html{scroll-behavior:smooth;background:#ded8cc}body{margin:0;color:var(--ink);font-family:"Songti SC","STSong","Noto Serif CJK SC","Source Han Serif SC",serif;font-size:17px;line-height:2;background:
-      radial-gradient(circle at 20% 0%,rgba(255,255,255,.75),transparent 34%),
-      linear-gradient(90deg,rgba(82,70,48,.035) 1px,transparent 1px),
-      linear-gradient(var(--paper),#eee8dc);background-size:auto,11px 11px,auto;-webkit-font-smoothing:antialiased;overflow-x:hidden}
-    body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.26;z-index:20;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140' viewBox='0 0 140 140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.12'/%3E%3C/svg%3E")}
-    img{max-width:100%;display:block}.page{max-width:920px;margin:0 auto;background:rgba(247,243,234,.92);box-shadow:var(--shadow);position:relative;overflow:hidden}.page:before,.page:after{content:"";position:absolute;width:1px;background:linear-gradient(transparent,var(--gold),transparent);top:0;bottom:0;opacity:.38}.page:before{left:28px}.page:after{right:28px}
-    .hero{min-height:92vh;position:relative;display:grid;align-items:end;background:var(--moss-2);overflow:hidden}.hero-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;filter:saturate(.72) contrast(.94)}.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(17,34,25,.08),rgba(17,34,25,.2) 40%,rgba(14,30,22,.88) 100%),linear-gradient(90deg,rgba(19,42,30,.58),transparent 62%)}
-    .hero-ornament{position:absolute;right:-55px;top:42px;width:360px;height:520px;z-index:2;opacity:.62}.hero-content{position:relative;z-index:3;padding:72px 74px 68px;max-width:760px;color:#f5f0e5}.brand-line{display:flex;align-items:center;gap:16px;margin-bottom:26px}.seal{width:64px;height:64px;border:2px solid #c77458;color:#f3c4b0;display:grid;place-items:center;font-family:"Kaiti SC","STKaiti",serif;font-size:26px;line-height:1.05;transform:rotate(-3deg);background:rgba(108,36,25,.2)}.brand-en{font:600 12px/1.5 -apple-system,BlinkMacSystemFont,sans-serif;letter-spacing:.32em;color:#d9c8a8}.hero h1{font-size:clamp(46px,7vw,78px);font-weight:400;line-height:1.24;letter-spacing:.08em;margin:0 0 22px;text-shadow:0 4px 30px rgba(0,0,0,.32)}.hero .dek{font-size:20px;letter-spacing:.22em;color:#ddcfb2;margin:0}.hero .verse{margin:46px 0 0;padding-left:20px;border-left:1px solid rgba(217,200,168,.55);font-family:"Kaiti SC","STKaiti",serif;font-size:17px;color:#efe5d2;letter-spacing:.12em}.scroll-mark{position:absolute;right:46px;bottom:46px;z-index:4;writing-mode:vertical-rl;color:#d9c8a8;font:11px/1 -apple-system,sans-serif;letter-spacing:.24em}.scroll-mark:after{content:"";display:block;width:1px;height:62px;background:linear-gradient(#d9c8a8,transparent);margin:12px auto 0;animation:pulse 2s ease-in-out infinite}
-    .opening{padding:108px 105px 98px;position:relative;text-align:center}.opening .mini{font:600 11px/1.5 -apple-system,BlinkMacSystemFont,sans-serif;letter-spacing:.28em;color:var(--cinnabar)}.opening p{max-width:610px;margin:28px auto 0;font-size:21px;line-height:2.25;letter-spacing:.08em}.opening .big-char{position:absolute;left:36px;top:18px;font-size:210px;line-height:1;color:rgba(41,75,58,.045);font-family:"Kaiti SC","STKaiti",serif;user-select:none}.leaf-rule{display:flex;align-items:center;justify-content:center;gap:14px;margin:38px auto 0;color:var(--gold)}.leaf-rule:before,.leaf-rule:after{content:"";width:76px;height:1px;background:linear-gradient(90deg,transparent,var(--gold))}.leaf-rule:after{transform:scaleX(-1)}
-    .section{padding:92px 82px;position:relative}.section.dark{background:var(--moss-2);color:#f1eadc}.section.warm{background:#d7c0a0;color:#314137}.section-head{display:grid;grid-template-columns:86px 1fr;gap:28px;align-items:start;margin-bottom:46px}.chapter{font-family:"Kaiti SC","STKaiti",serif;font-size:52px;line-height:1;color:var(--cinnabar);border-right:1px solid var(--line);padding-right:24px;text-align:center}.dark .chapter{color:#d58d6e;border-color:rgba(255,255,255,.18)}.eyebrow{font:700 11px/1.4 -apple-system,BlinkMacSystemFont,sans-serif;letter-spacing:.3em;color:var(--gold);margin-bottom:12px}.section h2{font-size:36px;line-height:1.45;letter-spacing:.08em;font-weight:500;margin:0}.section p{margin:0 0 22px;color:var(--ink-soft);letter-spacing:.035em}.dark p{color:#d8d6c8}.section-grid{display:grid;grid-template-columns:1.02fr .98fr;gap:52px;align-items:center}.section-grid.reverse{grid-template-columns:.92fr 1.08fr}.section-grid.reverse .copy{order:2}.section-grid.reverse .photo-wrap{order:1}.photo-wrap{position:relative}.photo-wrap:before{content:"";position:absolute;inset:-12px 12px 12px -12px;border:1px solid var(--gold);opacity:.65}.photo-wrap img{position:relative;z-index:1;width:100%;aspect-ratio:4/5;object-fit:cover;filter:saturate(.78) contrast(.96);box-shadow:0 18px 42px rgba(30,40,31,.16)}.photo-note{position:absolute;right:-13px;bottom:20px;z-index:2;background:var(--cinnabar);color:#fff;padding:13px 10px;writing-mode:vertical-rl;letter-spacing:.16em;font-size:12px}
-    .triad{padding:96px 66px 104px;background:#ebe5d8;position:relative}.triad-title{text-align:center;margin-bottom:52px}.triad-title small{color:var(--cinnabar);letter-spacing:.3em}.triad-title h2{font-size:37px;font-weight:500;letter-spacing:.08em;margin:8px 0 0}.principles{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.principle{background:#ebe5d8;padding:45px 28px 40px;min-height:330px;position:relative;overflow:hidden}.principle .num{font:500 12px/1 sans-serif;color:var(--gold);letter-spacing:.2em}.principle .char{font-family:"Kaiti SC","STKaiti",serif;font-size:78px;line-height:1;margin:30px 0 20px;color:var(--moss)}.principle h3{font-size:18px;letter-spacing:.14em;font-weight:500;margin:0 0 14px}.principle p{font-size:15px;line-height:1.9;color:var(--ink-soft);margin:0}.principle:after{content:"";position:absolute;width:120px;height:120px;border:1px solid rgba(164,92,69,.14);border-radius:50%;right:-48px;bottom:-48px}
-    .quote-band{padding:76px 92px;text-align:center;background:linear-gradient(rgba(24,54,41,.9),rgba(24,54,41,.92)),url("https://mmecoa.qpic.cn/mmecoa_jpg/AfYCZcmibibkTYL7pia3wCFJZmrmeHkPhRefn7eEVaLTYIS53jEcojqs0YZY4AkdB4RfMrvjqp1gibm1Tv3EzFKVAvTBGdGJfSZHon2K1TuwRD8/640?wx_fmt=jpeg&from=appmsg") center/cover;color:#f5eddf}.quote-band blockquote{margin:0;font-family:"Kaiti SC","STKaiti",serif;font-size:30px;line-height:1.8;letter-spacing:.12em}.quote-band span{display:block;margin-top:18px;color:#cdbd9c;font-size:12px;letter-spacing:.28em}
-    .mosaic{display:grid;grid-template-columns:1.15fr .85fr;grid-template-rows:310px 290px;gap:14px;margin-top:44px}.mosaic figure{margin:0;position:relative;overflow:hidden}.mosaic figure:first-child{grid-row:1/3}.mosaic img{width:100%;height:100%;object-fit:cover;filter:saturate(.72)}.mosaic figure:after{content:attr(data-label);position:absolute;left:16px;bottom:16px;background:rgba(246,241,230,.88);color:var(--ink);padding:6px 12px;font-size:11px;letter-spacing:.18em}.responsibility{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:44px}.responsibility div{border-top:1px solid rgba(241,234,220,.28);padding-top:20px}.responsibility strong{display:block;color:#e1c187;font-size:18px;letter-spacing:.1em;margin-bottom:6px}.responsibility span{font-size:14px;color:#cdd1c9;line-height:1.8}
-    .closing{min-height:720px;display:grid;place-items:end center;position:relative;background:#1b3529;overflow:hidden}.closing img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:saturate(.65) brightness(.72)}.closing:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(22,48,35,.06),rgba(19,43,31,.88))}.closing-inner{position:relative;z-index:2;text-align:center;color:#f5eddf;padding:0 36px 70px}.closing .seal{margin:0 auto 26px}.closing h2{font-weight:400;font-size:38px;letter-spacing:.1em;margin:0 0 16px}.closing p{margin:0 auto;max-width:580px;color:#ddd4c1;letter-spacing:.08em}.closing .brand-sign{font-family:"Kaiti SC","STKaiti",serif;font-size:26px;color:#e6c990;margin-top:34px}.source{padding:32px 40px 42px;text-align:center;font:12px/1.8 -apple-system,BlinkMacSystemFont,sans-serif;color:#7b817c;background:#eee8dc}.source a{color:#687c6f;text-decoration:none;border-bottom:1px solid #a9b3ac}.compliance{margin-top:9px;color:#99948b}
-    .reveal{opacity:0;transform:translateY(28px);transition:opacity .85s ease,transform .85s cubic-bezier(.2,.75,.2,1)}.reveal.visible{opacity:1;transform:none}@keyframes pulse{0%,100%{opacity:.25;transform:scaleY(.65);transform-origin:top}50%{opacity:1;transform:scaleY(1)}}
-    @media(max-width:700px){body{font-size:16px}.page:before{left:10px}.page:after{right:10px}.hero{min-height:82vh}.hero-content{padding:54px 28px 48px}.hero h1{font-size:43px;letter-spacing:.06em}.hero .dek{font-size:16px}.hero-ornament{width:270px;right:-100px}.scroll-mark{right:18px;bottom:30px}.opening{padding:76px 30px 72px}.opening p{font-size:18px}.opening .big-char{font-size:150px;left:-10px}.section{padding:72px 28px}.section-head{grid-template-columns:60px 1fr;gap:18px}.chapter{font-size:40px;padding-right:15px}.section h2{font-size:29px}.section-grid,.section-grid.reverse{grid-template-columns:1fr;gap:42px}.section-grid.reverse .copy{order:1}.section-grid.reverse .photo-wrap{order:2}.photo-wrap{margin:0 10px}.triad{padding:72px 26px}.principles{grid-template-columns:1fr}.principle{min-height:0;padding:34px 26px}.principle .char{font-size:60px;margin:20px 0 14px}.quote-band{padding:58px 28px}.quote-band blockquote{font-size:23px}.mosaic{grid-template-columns:1fr;grid-template-rows:330px 230px 230px}.mosaic figure:first-child{grid-row:auto}.responsibility{grid-template-columns:1fr}.closing{min-height:610px}.closing h2{font-size:30px}.source{padding:28px 25px 38px}}
-    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}.scroll-mark:after{animation:none}}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth;background:#e9d8c0}
+    body{margin:0;color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.95;background:
+      radial-gradient(circle at 15% 0%,rgba(255,252,242,.96),transparent 32%),
+      linear-gradient(135deg,#ead8c0,#d9bea0);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+    body:before{content:"";position:fixed;inset:0;z-index:20;pointer-events:none;opacity:.14;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.15'/%3E%3C/svg%3E")}
+    img,video{display:block;max-width:100%}
+    p,h1,h2,h3,blockquote,figcaption{overflow-wrap:anywhere;word-break:normal}
+    a{color:inherit}
+    .page{width:min(100%,980px);margin:0 auto;background:var(--cream);box-shadow:var(--shadow);position:relative}
+    .hero{min-height:min(900px,96svh);position:relative;display:flex;align-items:flex-end;background:var(--tea-deep);isolation:isolate}
+    .hero-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 45%;z-index:-3}
+    .hero:before{content:"";position:absolute;inset:0;z-index:-2;background:linear-gradient(180deg,rgba(55,30,22,.05) 0%,rgba(62,34,25,.22) 38%,rgba(51,28,23,.9) 100%),linear-gradient(90deg,rgba(68,36,27,.48),transparent 66%)}
+    .hero:after{content:"";position:absolute;inset:24px;border:1px solid rgba(247,220,180,.42);z-index:-1;pointer-events:none}
+    .hero-leaf{position:absolute;right:1%;top:4%;width:min(390px,46vw);height:auto;opacity:.7;color:#efd2a5}
+    .hero-content{width:min(760px,100%);padding:clamp(52px,9vw,104px);padding-bottom:clamp(64px,9vw,94px);color:#fff8eb}
+    .brand-line{display:flex;align-items:center;gap:18px;margin-bottom:32px}
+    .seal{flex:0 0 auto;width:68px;height:68px;border:2px solid #d88768;display:grid;place-items:center;color:#ffd7bf;background:rgba(127,52,38,.34);font:28px/1.05 "Kaiti SC","STKaiti",serif;transform:rotate(-2deg)}
+    .brand-en{font:600 11px/1.65 var(--sans);letter-spacing:.26em;color:#efd9ba}
+    h1,h2,h3,.display{font-family:var(--serif)}
+    .hero h1{margin:0 0 22px;font-size:clamp(43px,7.5vw,82px);line-height:1.2;font-weight:500;letter-spacing:.06em;text-shadow:0 5px 28px rgba(31,15,12,.34)}
+    .hero .dek{margin:0;font-family:var(--serif);font-size:clamp(18px,2.4vw,23px);letter-spacing:.12em;color:#f2dcc1}
+    .hero .verse{margin:38px 0 0;max-width:520px;padding:15px 0 15px 20px;border-left:2px solid rgba(220,150,105,.86);font-family:var(--serif);font-size:16px;line-height:2;color:#f8ead6;letter-spacing:.05em}
+    .scroll{position:absolute;right:42px;bottom:44px;color:#efd9ba;font:10px/1 var(--sans);letter-spacing:.2em;writing-mode:vertical-rl}
+    .scroll:after{content:"";display:block;width:1px;height:54px;margin:12px auto 0;background:linear-gradient(#e4b77f,transparent);animation:breathe 2.2s ease-in-out infinite}
+    .opening{position:relative;padding:clamp(82px,13vw,132px) clamp(28px,11vw,112px);text-align:center;background:linear-gradient(180deg,#fffaf1,#f8eddd)}
+    .opening:before{content:"和";position:absolute;left:4%;top:12%;font:clamp(130px,23vw,230px)/1 "Kaiti SC","STKaiti",serif;color:rgba(143,64,48,.045);pointer-events:none}
+    .micro{font:700 11px/1.5 var(--sans);letter-spacing:.24em;color:var(--copper);text-transform:uppercase}
+    .opening p{position:relative;max-width:660px;margin:30px auto 0;font-family:var(--serif);font-size:clamp(18px,2.7vw,23px);line-height:2.15;letter-spacing:.045em}
+    .ornament{display:flex;align-items:center;justify-content:center;gap:14px;margin:38px auto 0;color:var(--amber)}
+    .ornament:before,.ornament:after{content:"";width:76px;height:1px;background:linear-gradient(90deg,transparent,var(--amber))}.ornament:after{transform:scaleX(-1)}
+    .chapter{padding:clamp(76px,11vw,116px) clamp(26px,8.5vw,84px);position:relative}
+    .chapter.tint{background:var(--paper)}
+    .chapter.deep{background:linear-gradient(145deg,#573429,#3f2823);color:#fff6e8}
+    .chapter-head{display:flex;align-items:flex-start;gap:24px;margin-bottom:46px}
+    .chapter-index{flex:0 0 auto;min-width:62px;padding:10px 9px 8px;border-top:1px solid currentColor;border-bottom:1px solid currentColor;text-align:center;font:26px/1 var(--serif);color:var(--cinnabar)}
+    .deep .chapter-index{color:#e3a378}
+    .chapter h2{margin:9px 0 0;font-size:clamp(30px,5vw,46px);line-height:1.38;font-weight:500;letter-spacing:.045em}
+    .copy p{margin:0 0 20px;color:var(--muted);line-height:2}
+    .deep .copy p,.deep>p{color:#eadbcc}
+    .story-grid{display:grid;grid-template-columns:minmax(0,1.04fr) minmax(260px,.96fr);gap:clamp(38px,7vw,72px);align-items:center}
+    figure{margin:0}
+    .portrait{position:relative;padding:14px 0 0 14px}
+    .portrait:before{content:"";position:absolute;left:0;top:0;right:14px;bottom:14px;border:1px solid var(--amber)}
+    .portrait img{position:relative;width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center;background:#ddc6aa;box-shadow:0 18px 48px rgba(83,48,34,.18)}
+    .portrait figcaption{position:relative;margin:13px 0 0;text-align:right;color:var(--copper);font-size:12px;letter-spacing:.12em}
+    .principles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));margin-top:52px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+    .principle{position:relative;padding:42px 28px 38px;border-right:1px solid var(--line)}.principle:last-child{border-right:0}
+    .principle .num{font:600 10px/1 var(--sans);letter-spacing:.18em;color:var(--copper)}
+    .principle .char{margin:27px 0 16px;font:70px/1 "Kaiti SC","STKaiti",serif;color:var(--tea)}
+    .principle h3{margin:0 0 12px;font-size:20px;letter-spacing:.08em}
+    .principle p{margin:0;color:var(--muted);font-size:15px;line-height:1.85}
+    .full-bleed{position:relative;min-height:500px;display:flex;align-items:flex-end;isolation:isolate;background:var(--tea)}
+    .full-bleed img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2}
+    .full-bleed:after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(62,39,31,.03),rgba(62,39,31,.85))}
+    .full-caption{padding:48px clamp(28px,8vw,78px);color:#fff7eb;max-width:720px}
+    .full-caption strong{display:block;font:clamp(27px,4.5vw,42px)/1.45 var(--serif);font-weight:500;letter-spacing:.06em}
+    .full-caption span{display:block;margin-top:10px;color:#efd5b3;font-size:13px;letter-spacing:.12em}
+    .quote-band{padding:clamp(66px,10vw,98px) clamp(28px,10vw,100px);text-align:center;background:#a55d40;color:#fff8eb}
+    .quote-band blockquote{margin:0;font:clamp(25px,4.5vw,38px)/1.75 var(--serif);letter-spacing:.06em}
+    .quote-band span{display:block;margin-top:20px;color:#f2ceb1;font-size:11px;letter-spacing:.2em}
+    .video-section{padding:clamp(72px,10vw,100px) clamp(26px,8.5vw,84px);background:linear-gradient(180deg,#f5e4cd,#f9eee0)}
+    .video-head{display:flex;align-items:end;justify-content:space-between;gap:26px;margin-bottom:30px}
+    .video-head h2{margin:8px 0 0;font-size:clamp(28px,4.7vw,42px);font-weight:500;line-height:1.4}
+    .video-head p{max-width:300px;margin:0;color:var(--muted);font-size:14px}
+    .video-slot{aspect-ratio:16/9;min-height:220px;display:grid;place-items:center;position:relative;border:1px solid rgba(111,63,46,.28);background:
+      radial-gradient(circle at 50% 45%,rgba(228,170,119,.28),transparent 33%),
+      linear-gradient(135deg,#754333,#3f2924);color:#fff3e2;overflow:hidden}
+    .video-slot:before,.video-slot:after{content:"";position:absolute;inset:18px;border:1px solid rgba(248,221,183,.24)}
+    .video-slot:after{inset:auto -8% -55% 44%;width:62%;aspect-ratio:1;border-radius:50%;border-color:rgba(248,221,183,.18)}
+    .video-placeholder{position:relative;z-index:1;text-align:center;padding:28px}
+    .play{width:72px;height:72px;margin:0 auto 18px;border:1px solid #e3b27f;border-radius:50%;display:grid;place-items:center;background:rgba(255,248,235,.08)}
+    .play:before{content:"";margin-left:5px;border-left:18px solid #f4d2ad;border-top:11px solid transparent;border-bottom:11px solid transparent}
+    .video-placeholder strong{display:block;font:24px/1.4 var(--serif);letter-spacing:.08em}
+    .video-placeholder span{display:block;margin-top:8px;color:#e7c9a9;font-size:12px;letter-spacing:.12em}
+    .gallery-intro{max-width:710px;margin-bottom:40px}.gallery-intro p{color:var(--muted);margin:0 0 18px}
+    .gallery{display:grid;grid-template-columns:1.16fr .84fr;grid-template-rows:300px 300px;gap:16px}
+    .gallery figure{position:relative;overflow:hidden;background:#ddc2a2}.gallery figure:first-child{grid-row:1/3}
+    .gallery img{width:100%;height:100%;object-fit:cover;transition:transform .8s cubic-bezier(.2,.7,.2,1),filter .8s;filter:saturate(.82) sepia(.05)}
+    .gallery figure:hover img{transform:scale(1.025);filter:saturate(.95)}
+    .gallery figcaption{position:absolute;left:14px;bottom:14px;padding:7px 12px;background:rgba(255,249,239,.9);color:var(--tea);font-size:11px;letter-spacing:.14em;box-shadow:0 8px 30px rgba(49,28,22,.12)}
+    .nourish{display:grid;grid-template-columns:minmax(0,1fr) minmax(240px,.78fr);gap:clamp(38px,8vw,82px);align-items:center}
+    .nourish-mark{aspect-ratio:1;border:1px solid rgba(111,63,46,.28);border-radius:50%;display:grid;place-items:center;text-align:center;background:radial-gradient(circle,#f8e8d1 0 51%,transparent 52%);position:relative}
+    .nourish-mark:after{content:"";position:absolute;inset:10%;border:1px dashed rgba(143,64,48,.22);border-radius:50%}
+    .nourish-char{font:86px/1 "Kaiti SC","STKaiti",serif;color:var(--cinnabar)}
+    .nourish-mark small{display:block;margin-top:14px;letter-spacing:.16em;color:var(--muted);line-height:1.8}
+    .responsibility{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:26px;margin-top:46px}
+    .responsibility div{padding-top:24px;border-top:1px solid rgba(255,243,226,.25)}
+    .responsibility strong{display:block;margin-bottom:8px;color:#ebb582;font:22px/1.4 var(--serif);letter-spacing:.08em}
+    .responsibility span{color:#e7d6c7;font-size:14px;line-height:1.85}
+    .closing{min-height:700px;position:relative;display:flex;align-items:flex-end;justify-content:center;background:var(--tea-deep);isolation:isolate}
+    .closing>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2}
+    .closing:after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(62,39,31,.06),rgba(53,30,25,.88))}
+    .closing-inner{max-width:700px;padding:64px 34px 72px;text-align:center;color:#fff8ea}
+    .closing .seal{margin:0 auto 24px}
+    .closing h2{margin:0 0 16px;font-size:clamp(31px,5vw,45px);font-weight:500;letter-spacing:.06em}
+    .closing p{margin:0;color:#f0dcc7;line-height:2}.brand-sign{margin-top:30px;color:#eab884;font:25px/1.4 var(--serif)}
+    footer{padding:34px 28px 42px;text-align:center;background:#ead8c1;color:#7e695c;font-size:12px;line-height:1.8}
+    footer a{text-decoration:none;border-bottom:1px solid rgba(111,63,46,.4)}.compliance{margin-top:8px;color:#917f74}
+    .reveal-pending{opacity:0;transform:translateY(24px)}
+    [data-reveal]{transition:opacity .72s ease,transform .82s cubic-bezier(.18,.72,.2,1)}
+    [data-reveal].is-visible{opacity:1;transform:none}
+    @keyframes breathe{0%,100%{opacity:.25;transform:scaleY(.55);transform-origin:top}50%{opacity:1;transform:scaleY(1)}}
+    @media(max-width:720px){
+      body{font-size:16px}.hero{min-height:720px}.hero:after{inset:12px}.hero-content{padding:50px 30px 58px}.hero-leaf{width:270px;right:-70px}.brand-line{gap:13px}.seal{width:58px;height:58px;font-size:24px}.brand-en{font-size:9px;letter-spacing:.17em}.hero h1{font-size:44px;letter-spacing:.035em}.hero .dek{font-size:17px;letter-spacing:.08em}.hero .verse{font-size:15px;margin-top:30px;padding-left:15px}.scroll{display:none}
+      .chapter-head{gap:15px;margin-bottom:34px}.chapter-index{min-width:49px;font-size:22px}.chapter h2{font-size:30px;letter-spacing:.025em}.story-grid,.nourish{grid-template-columns:1fr;gap:38px}.portrait{padding:10px 0 0 10px;margin:0 5px}.portrait img{aspect-ratio:4/4.7}
+      .principles{grid-template-columns:1fr}.principle{border-right:0;border-bottom:1px solid var(--line);padding:30px 18px}.principle:last-child{border-bottom:0}.principle .char{font-size:56px;margin:20px 0 12px}
+      .full-bleed{min-height:470px}.full-caption{padding:38px 28px}.video-head{display:block}.video-head p{margin-top:14px}.video-slot{min-height:205px}.play{width:62px;height:62px}
+      .gallery{grid-template-columns:1fr;grid-template-rows:360px 240px 240px}.gallery figure:first-child{grid-row:auto}.nourish-mark{width:min(310px,88vw);margin:0 auto}.nourish-char{font-size:76px}
+      .responsibility{grid-template-columns:1fr;gap:22px}.closing{min-height:620px}.closing-inner{padding-bottom:58px}
+    }
+    @media(max-width:390px){
+      .hero-content{padding-left:24px;padding-right:24px}.hero h1{font-size:40px}.opening{padding-left:24px;padding-right:24px}.chapter,.video-section{padding-left:22px;padding-right:22px}.chapter h2{font-size:28px}.chapter-index{min-width:44px;padding-left:6px;padding-right:6px}.gallery{grid-template-rows:330px 220px 220px}.quote-band{padding-left:22px;padding-right:22px}
+    }
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.reveal-pending{opacity:1;transform:none}}
   </style>
 </head>
 <body>
-  <article class="page">
+  <main class="page">
     <header class="hero">
       <img class="hero-photo" src="https://mmecoa.qpic.cn/sz_mmecoa_png/AfYCZcmibibkQGU0aKTtmd73lhTuUKAWMibq9icSYuKhAa2QpRJLUVDG1zNLqAIfEjj0Qy44QIVbVVqZOiaLgMPWHlgRPyqfX2lPtbapC2aaTLUk/640?wx_fmt=png&amp;from=appmsg" alt="予沐品牌空间" referrerpolicy="no-referrer">
-      <svg class="hero-ornament" viewBox="0 0 360 520" aria-hidden="true"><g fill="none" stroke="#d7c49c" stroke-width="1.2"><path d="M320 510C248 412 244 292 270 170C286 96 266 42 226 6"/><path d="M269 173C220 145 173 115 146 71"/><path d="M258 244C210 231 166 220 118 183"/><path d="M258 328C303 296 327 267 344 229"/><path d="M283 419C235 405 194 374 165 340"/></g><g fill="#d7c49c" opacity=".72"><ellipse cx="164" cy="88" rx="29" ry="11" transform="rotate(34 164 88)"/><ellipse cx="126" cy="192" rx="32" ry="12" transform="rotate(25 126 192)"/><ellipse cx="330" cy="245" rx="28" ry="10" transform="rotate(-51 330 245)"/><ellipse cx="179" cy="352" rx="32" ry="11" transform="rotate(39 179 352)"/><ellipse cx="239" cy="73" rx="26" ry="10" transform="rotate(66 239 73)"/></g></svg>
+      <svg class="hero-leaf" viewBox="0 0 360 520" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.2"><path d="M320 510C248 412 244 292 270 170C286 96 266 42 226 6"/><path d="M269 173C220 145 173 115 146 71"/><path d="M258 244C210 231 166 220 118 183"/><path d="M258 328C303 296 327 267 344 229"/><path d="M283 419C235 405 194 374 165 340"/></g><g fill="currentColor" opacity=".58"><ellipse cx="164" cy="88" rx="29" ry="11" transform="rotate(34 164 88)"/><ellipse cx="126" cy="192" rx="32" ry="12" transform="rotate(25 126 192)"/><ellipse cx="330" cy="245" rx="28" ry="10" transform="rotate(-51 330 245)"/><ellipse cx="179" cy="352" rx="32" ry="11" transform="rotate(39 179 352)"/></g></svg>
       <div class="hero-content">
         <div class="brand-line"><div class="seal">予<br>沐</div><div class="brand-en">YUMU · ORIENTAL HERBAL SKINCARE</div></div>
         <h1>循本草之序<br>养肌肤之和</h1>
         <p class="dek">一草一木有时，一肌一肤有序</p>
         <p class="verse">不催一叶早绿，不责一肤无瑕。<br>顺时而养，知肤而行。</p>
       </div>
-      <div class="scroll-mark">向下 · 入本草之境</div>
+      <div class="scroll">向下 · 入本草之境</div>
     </header>
 
-    <section class="opening reveal">
-      <div class="big-char">和</div>
-      <div class="mini">A LETTER FROM YUMU</div>
+    <section class="opening" data-reveal>
+      <div class="micro">A LETTER FROM YUMU</div>
       <p>草木不争朝夕。春生，夏长，秋收，冬藏；一叶舒展、一根蓄力，都有自己的时序。肌肤亦然。真正长久的护理，不是催促它立刻变成某一种模样，而是理解此刻的状态，给予合适的照料与耐心。</p>
-      <div class="leaf-rule">✦</div>
+      <div class="ornament">✦</div>
     </section>
 
-    <section class="section reveal">
-      <div class="section-head"><div class="chapter">壹</div><div><div class="eyebrow">ORIGIN · 溯源</div><h2>二十余年，<br>我们重新走回草木之间</h2></div></div>
-      <div class="section-grid">
+    <section class="chapter" data-reveal>
+      <div class="chapter-head"><div class="chapter-index">壹</div><div><div class="micro">ORIGIN · 溯源</div><h2>二十余年，<br>我们重新走回草木之间</h2></div></div>
+      <div class="story-grid">
         <div class="copy">
           <p>二十余年的肌肤护理实践，让予沐见过许多不同的肌肤，也一次次确认：肌肤问题很少只有一个答案。</p>
           <p>同样的季节、相似的年龄，人们对环境、节律和护理方式的感受仍然不同。比起用统一标签迅速归类，我们更愿意先看见真实的个体，再寻找与之相合的护理方式。</p>
           <p>在不断探索中，我们把目光投向东方本草。予沐珍视的，不只是“草本”这个符号，而是其中缓慢、平衡、尊重规律的智慧。</p>
         </div>
-        <figure class="photo-wrap"><img src="https://mmecoa.qpic.cn/mmecoa_png/AfYCZcmibibkQzEnJBVODPvtV5l6tJ1tkxPIAVXADBlgnTeGnYTLGM5Jp8LS5eX40Xv9mV0tsibjsdZqJWomf7JbmxmZpicMLzhVueBo7ibhxnFA/640?wx_fmt=png&amp;from=appmsg" alt="予沐品牌创始人与品牌空间" loading="lazy" referrerpolicy="no-referrer"><figcaption class="photo-note">从肌肤实践出发</figcaption></figure>
+        <figure class="portrait"><img src="https://mmecoa.qpic.cn/mmecoa_png/AfYCZcmibibkQzEnJBVODPvtV5l6tJ1tkxPIAVXADBlgnTeGnYTLGM5Jp8LS5eX40Xv9mV0tsibjsdZqJWomf7JbmxmZpicMLzhVueBo7ibhxnFA/640?wx_fmt=png&amp;from=appmsg" alt="予沐品牌创始人与品牌空间" loading="lazy" referrerpolicy="no-referrer"><figcaption>从肌肤实践出发 · 走回草木之间</figcaption></figure>
       </div>
     </section>
 
-    <section class="triad reveal">
-      <div class="triad-title"><small>THE WAY OF YUMU</small><h2>本草养肤的三重心法</h2></div>
+    <section class="chapter tint" data-reveal>
+      <div class="chapter-head"><div class="chapter-index">本</div><div><div class="micro">THE WAY OF YUMU</div><h2>本草养肤的三重心法</h2></div></div>
       <div class="principles">
-        <div class="principle"><div class="num">01 / SEASON</div><div class="char">循</div><h3>顺时而养</h3><p>尊重季节与生活节奏的变化，不把护理做成一成不变的程序。</p></div>
-        <div class="principle"><div class="num">02 / OBSERVE</div><div class="char">知</div><h3>知肤而行</h3><p>观察肌肤当下的感受，减少盲目叠加，选择真正需要的护理。</p></div>
-        <div class="principle"><div class="num">03 / SINCERITY</div><div class="char">守</div><h3>守真而作</h3><p>认真对待来源、配方逻辑与使用感受，让每一步都有来处，也有边界。</p></div>
+        <article class="principle"><div class="num">01 / SEASON</div><div class="char">循</div><h3>顺时而养</h3><p>尊重季节与生活节奏的变化，不把护理做成一成不变的程序。</p></article>
+        <article class="principle"><div class="num">02 / OBSERVE</div><div class="char">知</div><h3>知肤而行</h3><p>观察肌肤当下的感受，减少盲目叠加，选择真正需要的护理。</p></article>
+        <article class="principle"><div class="num">03 / SINCERITY</div><div class="char">守</div><h3>守真而作</h3><p>认真对待来源、配方逻辑与使用感受，让每一步都有来处，也有边界。</p></article>
       </div>
     </section>
 
-    <section class="section dark reveal">
-      <div class="section-head"><div class="chapter">贰</div><div><div class="eyebrow">RHYTHM · 循时</div><h2>草木有性，<br>肌肤有自己的答案</h2></div></div>
-      <div class="section-grid reverse">
-        <div class="copy">
-          <p>东方本草讲究因时、因地，也讲究彼此之间的配合。这种思想启发我们：护理不必永远追逐更快、更强。</p>
-          <p>肌肤在不同阶段会发出不同信号。换季时的干燥、忙碌后的倦态、压力之下的不稳定，都需要被分别理解。</p>
-          <p>古老智慧进入当代生活，不是复刻旧日形式，而是在现代护肤方法中，重新找回对时间、分寸与平衡的尊重。</p>
-        </div>
-        <figure class="photo-wrap"><img src="https://mmecoa.qpic.cn/mmecoa_jpg/AfYCZcmibibkSwu4Kp8OTooiasgf7MZfl6gt7ZTtgVGgfL9cLUvweib3mIiaxmJibMwAOhAMuAw2Bfibf4hhuhEvPOofony6alonN45zyLWDfneSyE/640?wx_fmt=jpeg&amp;from=appmsg" alt="予沐本草陈列" loading="lazy" referrerpolicy="no-referrer"><figcaption class="photo-note">一味一性 · 一时一养</figcaption></figure>
+    <figure class="full-bleed" data-reveal>
+      <img src="https://mmecoa.qpic.cn/mmecoa_jpg/AfYCZcmibibkSwu4Kp8OTooiasgf7MZfl6gt7ZTtgVGgfL9cLUvweib3mIiaxmJibMwAOhAMuAw2Bfibf4hhuhEvPOofony6alonN45zyLWDfneSyE/640?wx_fmt=jpeg&amp;from=appmsg" alt="予沐本草陈列" loading="lazy" referrerpolicy="no-referrer">
+      <figcaption class="full-caption"><strong>草木有性，肌肤也有自己的答案</strong><span>一味一性 · 一时一养</span></figcaption>
+    </figure>
+
+    <section class="chapter deep" data-reveal>
+      <div class="chapter-head"><div class="chapter-index">贰</div><div><div class="micro">RHYTHM · 循时</div><h2>慢一点，听见肌肤<br>当下真正的需要</h2></div></div>
+      <div class="copy">
+        <p>东方本草讲究因时、因地，也讲究彼此之间的配合。这种思想启发我们：护理不必永远追逐更快、更强。</p>
+        <p>肌肤在不同阶段会发出不同信号。换季时的干燥、忙碌后的倦态、压力之下的不稳定，都需要被分别理解。</p>
+        <p>古老智慧进入当代生活，不是复刻旧日形式，而是在现代护肤方法中，重新找回对时间、分寸与平衡的尊重。</p>
       </div>
     </section>
 
-    <div class="quote-band reveal"><blockquote>“不以标签定义肌肤，<br>不以焦虑催促改变。”</blockquote><span>予沐 · 知肤之道</span></div>
+    <div class="quote-band" data-reveal><blockquote>“不以标签定义肌肤，<br>不以焦虑催促改变。”</blockquote><span>予沐 · 知肤之道</span></div>
 
-    <section class="section reveal">
-      <div class="section-head"><div class="chapter">叁</div><div><div class="eyebrow">UNDERSTAND · 知肤</div><h2>从“纠正”肌肤，<br>走向理解肌肤</h2></div></div>
-      <p>肌肤不该只剩下“干”“油”“敏”等几个简单答案。每个人都有自己的生活节奏，也有不同的环境、习惯与感受。标签可以帮助描述，却不应该替代真正的观察。</p>
-      <p>予沐希望让护理从“纠正”转向“理解”：看见肌肤正在经历什么，给它适度的回应；不因短暂起伏而过度焦虑，也不因流行趋势打乱原有节奏。</p>
-      <div class="mosaic">
-        <figure data-label="本草与器"><img src="https://mmecoa.qpic.cn/mmecoa_jpg/AfYCZcmibibkTYL7pia3wCFJZmrmeHkPhRefn7eEVaLTYIS53jEcojqs0YZY4AkdB4RfMrvjqp1gibm1Tv3EzFKVAvTBGdGJfSZHon2K1TuwRD8/640?wx_fmt=jpeg&amp;from=appmsg" alt="予沐本草原料展示" loading="lazy" referrerpolicy="no-referrer"></figure>
-        <figure data-label="日常仪式"><img src="https://mmecoa.qpic.cn/mmecoa_jpg/AfYCZcmibibkQEf3lp5jeiaavXJ4pttRKpticPtElJY5jTFoGCSa3avTKKZSh4kicj3uI2KRDR0uCzHMJ15SHeklwhFsEpNiaEshnJXwqvtBClXeo/640?wx_fmt=jpeg&amp;from=appmsg" alt="予沐护理与本草场景" loading="lazy" referrerpolicy="no-referrer"></figure>
-        <figure data-label="温和相伴"><img src="https://mmecoa.qpic.cn/mmecoa_jpg/AfYCZcmibibkTZYriaTfuNlLzNaZBWLLic0Pn8Npn7TxV0FAaibIQ3OOTibiaRHV7ibZEiaPxWut898SOjVGuRQoIMLTnqHP5ot7RTpkrCUV4eycKVB0/640?wx_fmt=jpeg&amp;from=appmsg" alt="予沐护肤产品" loading="lazy" referrerpolicy="no-referrer"></figure>
+    <section class="video-section" id="brand-video" data-reveal>
+      <div class="video-head"><div><div class="micro">BRAND FILM · 品牌影像</div><h2>一段影像，走入本草之境</h2></div><p>这里已预留原文章视频的位置与手机端播放比例，收到视频文件后可直接替换。</p></div>
+      <div class="video-slot" role="img" aria-label="品牌视频待替换占位区">
+        <div class="video-placeholder"><div class="play" aria-hidden="true"></div><strong>品牌视频待补充</strong><span>16:9 · 支持手机端内联播放</span></div>
       </div>
     </section>
 
-    <section class="section warm reveal">
-      <div class="section-head"><div class="chapter">肆</div><div><div class="eyebrow">BODY &amp; MIND · 相养</div><h2>肌肤之外，<br>亦是身心同养</h2></div></div>
-      <div class="section-grid">
+    <section class="chapter" data-reveal>
+      <div class="chapter-head"><div class="chapter-index">叁</div><div><div class="micro">UNDERSTAND · 知肤</div><h2>从“纠正”肌肤，<br>走向理解肌肤</h2></div></div>
+      <div class="gallery-intro">
+        <p>肌肤不该只剩下“干”“油”“敏”等几个简单答案。每个人都有自己的生活节奏，也有不同的环境、习惯与感受。标签可以帮助描述，却不应该替代真正的观察。</p>
+        <p>予沐希望让护理从“纠正”转向“理解”：看见肌肤正在经历什么，给它适度的回应；不因短暂起伏而过度焦虑，也不因流行趋势打乱原有节奏。</p>
+      </div>
+      <div class="gallery">
+        <figure><img src="https://mmecoa.qpic.cn/mmecoa_jpg/AfYCZcmibibkTYL7pia3wCFJZmrmeHkPhRefn7eEVaLTYIS53jEcojqs0YZY4AkdB4RfMrvjqp1gibm1Tv3EzFKVAvTBGdGJfSZHon2K1TuwRD8/640?wx_fmt=jpeg&amp;from=appmsg" alt="予沐本草原料展示" loading="lazy" referrerpolicy="no-referrer"><figcaption>本草与器</figcaption></figure>
+        <figure><img src="https://mmecoa.qpic.cn/mmecoa_jpg/AfYCZcmibibkQEf3lp5jeiaavXJ4pttRKpticPtElJY5jTFoGCSa3avTKKZSh4kicj3uI2KRDR0uCzHMJ15SHeklwhFsEpNiaEshnJXwqvtBClXeo/640?wx_fmt=jpeg&amp;from=appmsg" alt="予沐护理与本草场景" loading="lazy" referrerpolicy="no-referrer"><figcaption>日常仪式</figcaption></figure>
+        <figure><img src="https://mmecoa.qpic.cn/mmecoa_jpg/AfYCZcmibibkTZYriaTfuNlLzNaZBWLLic0Pn8Npn7TxV0FAaibIQ3OOTibiaRHV7ibZEiaPxWut898SOjVGuRQoIMLTnqHP5ot7RTpkrCUV4eycKVB0/640?wx_fmt=jpeg&amp;from=appmsg" alt="予沐护肤产品" loading="lazy" referrerpolicy="no-referrer"><figcaption>温和相伴</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="chapter tint" data-reveal>
+      <div class="chapter-head"><div class="chapter-index">肆</div><div><div class="micro">BODY &amp; MIND · 相养</div><h2>肌肤之外，<br>亦是身心同养</h2></div></div>
+      <div class="nourish">
         <div class="copy"><p>肌肤从不是孤立的存在。规律饮食、充分休息、情绪舒展，与每日涂抹同样构成生活中的护理。</p><p>所谓身心同养，并不是把护肤说成玄妙的疗法，而是提醒我们：外在护理需要与内在节律互相配合。</p><p>认真吃一顿饭，早一点放下手机，在清洁与涂抹时放慢动作。许多微小选择累积起来，才是长期护理真正发生的地方。</p></div>
-        <div style="padding:38px;border:1px solid rgba(49,65,55,.25);text-align:center"><div style="font-family:'Kaiti SC','STKaiti',serif;font-size:78px;line-height:1;color:#8e513d">养</div><div style="letter-spacing:.25em;margin-top:18px">好好吃饭 · 好好睡觉<br>好好感受 · 好好照料</div></div>
+        <div class="nourish-mark" aria-label="好好吃饭，好好睡觉，好好感受，好好照料"><div><div class="nourish-char">养</div><small>好好吃饭 · 好好睡觉<br>好好感受 · 好好照料</small></div></div>
       </div>
     </section>
 
-    <section class="section dark reveal">
-      <div class="section-head"><div class="chapter">伍</div><div><div class="eyebrow">RESPONSIBILITY · 守真</div><h2>从一味本草，<br>到一份长期责任</h2></div></div>
+    <section class="chapter deep" data-reveal>
+      <div class="chapter-head"><div class="chapter-index">伍</div><div><div class="micro">RESPONSIBILITY · 守真</div><h2>从一味本草，<br>到一份长期责任</h2></div></div>
       <p>靠近自然，不应只发生在视觉与故事里。予沐持续关注成分溯源、包装创新与更负责任的品牌实践。每一次取用，都应多一分审慎；每一次抵达肌肤之前，都应经过清楚的选择。</p>
       <div class="responsibility"><div><strong>溯其源</strong><span>理解原料从何而来，让品牌表达建立在可确认的信息之上。</span></div><div><strong>减其负</strong><span>在包装与日常运营中，持续寻找更克制、更友好的方式。</span></div><div><strong>守其界</strong><span>尊重使用者的知情与选择，不以宏大承诺替代真实行动。</span></div></div>
     </section>
 
-    <section class="closing reveal">
+    <section class="closing" data-reveal>
       <img src="https://mmecoa.qpic.cn/sz_mmecoa_png/AfYCZcmibibkQMpCgFoxictAAS3bxsaibwJ1ITpwxPBgnq66xLia78HbkUI4dVWZcaiaEHq0oKVouS76JJE4fBkUX9ellicgOo5zl2UWMJozZQ56ZM/640?wx_fmt=png&amp;from=appmsg" alt="予沐品牌空间" loading="lazy" referrerpolicy="no-referrer">
       <div class="closing-inner"><div class="seal">予<br>沐</div><h2>予肌以沐，予心以安</h2><p>愿每一次触肤，都不只是完成步骤。愿它成为片刻停留，成为温柔照料，也成为你与自己重新相遇的开始。</p><div class="brand-sign">予沐 YUMU</div></div>
     </section>
 
-    <footer class="source">内容依据予沐公开品牌文章重新编辑与视觉设计 · <a href="https://mp.weixin.qq.com/s/JerEbrbUWDi8dXXJBBhTeQ" target="_blank" rel="noopener noreferrer">查看原文</a><div class="compliance">本文为品牌理念展示，具体产品功效与使用方式以产品备案及正式说明为准。</div></footer>
-  </article>
+    <footer>内容依据予沐公开品牌文章重新编辑与视觉设计 · <a href="https://mp.weixin.qq.com/s/JerEbrbUWDi8dXXJBBhTeQ" target="_blank" rel="noopener noreferrer">查看原文</a><div class="compliance">本文为品牌理念展示，具体产品功效与使用方式以产品备案及正式说明为准。</div></footer>
+  </main>
   <script>
-    const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
-    if(reduced){document.querySelectorAll('.reveal').forEach(el=>el.classList.add('visible'));}
-    else{const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');io.unobserve(e.target)}}),{threshold:.12,rootMargin:'0px 0px -40px'});document.querySelectorAll('.reveal').forEach(el=>io.observe(el));}
+    (()=>{
+      const items=[...document.querySelectorAll('[data-reveal]')];
+      if(!('IntersectionObserver' in window)||matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+      items.forEach(el=>el.classList.add('reveal-pending'));
+      const io=new IntersectionObserver(entries=>entries.forEach(entry=>{
+        if(entry.isIntersecting){entry.target.classList.add('is-visible');io.unobserve(entry.target)}
+      }),{threshold:.08,rootMargin:'0px 0px -24px'});
+      items.forEach(el=>io.observe(el));
+    })();
   </script>
 </body>
 </html>
